@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MAGIC MOON STUDIOS</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		
+
+		  <!-- Swiper CSS -->
+		  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+		  
+	</head>
+	<body>
+		<!-- Navbar -->
+<header>
+    <a href="#home" class="logo"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\logo.png" alt="magic moon studios"></a>
+   
+
+    <!-- menu -->
+	<ul><li><a href="#home"></a></li></ul>
+    <ul class="navbar">
+        <li><a href="#home" class="home-active" id="home">HOME</a></li>
+        <li><a href="#new-release">NEW RELEASE</a></li>
+        <li><a href="#series">SERIES</a></li>
+        <li><a href="#videos">MOVIES</a></li>
+		<li> <a href="#service">SERVICES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+    </ul>
+    
+</header>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Swiper Container -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\home1.png" style="width:100%" height="740">
+      <div class="home-text">
+        <h1>DHOOM-3</h1>
+		<a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Dhoom Machale Dhoom Full Song (DHOOM 3) - (1080p HD) (BollywoodHD.in).mp4" class="btn">Watch Now</a>
+        <a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Dhoom Machale Dhoom Full Song (DHOOM 3) - (1080p HD) (BollywoodHD.in).mp4" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/home2.png" style="width:100%" height="740">
+      <div class="home-text">
+        <h1> DON-2 </h1>
+        <a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Don_2_2011_Hindi_Full_Movie_BDRip.mp4" class="btn">Watch Now</a>
+        <a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Don_2_2011_Hindi_Full_Movie_BDRip.mp4" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\home3.png" style="width:100%" height="740">
+      <div class="home-text">
+        <h1>Student of <br>the year</h1>
+        <a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Student_of_the_Year_2_2019_Hindi_Full_Movie_HDRip.mp4" class="btn">Watch Now</a>
+        <a href="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\video\Student_of_the_Year_2_2019_Hindi_Full_Movie_HDRip.mp4" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Swiper Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".swiper-container", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    effect: 'slide',  // smooth sliding effect
+  });
+</script>
+  
+
+<ul><li><a href="#new-release"></a></li></ul>
+
+<div class="movie-recommendations" id="new-release">
+    <h2 class="new">NEW RELEASE</h2>
+    <div class="movie-containers">
+        <div class="movie-item"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\m1.jpg" alt="", height="400px", width="300"></div>
+        <div class="movie-item"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\m2.jpg" alt="", height="400px", width="300"></div>
+        <div class="movie-item"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\m3.jpg" alt="", height="400px", width="300"></div>
+        <div class="movie-item"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\m4.jpg" alt="", height="400px", width="300"></div>
+        <div class="movie-item"><img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\m5.jpg" alt="", height="400px", width="300"></div>
+    </div>
+</div>
+
+
+<!----- SERIES GRID-->
+<ul><li><a href="#series"></a></li></ul>
+<div class="series-container" id="series">
+	<h2>Latest Web Series</h2>
+  
+	<div class="series-grid">
+	  <!-- Web series 1 -->
+	  <div class="series-item">
+		<img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\series1.png" alt="Series 1">
+		<div class="series-info">
+		  <h3>MIRZAPUR</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Subscribe to<br>Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\series2.png" alt="Series 1">
+		<div class="series-info">
+		  <h3>PILL</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Subscribe to<br>Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\series3.png" alt="Series 1">
+		<div class="series-info">
+		  <h3>LOKI</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Subscribe to<br>Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\series4.png" alt="Series 1">
+		<div class="series-info">
+		  <h3>MONEY-HEIST</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Subscribe to<br>Watch Now</a>
+		</div>
+	  </div>
+  
+	  <!-- Web series 2 -->
+	  <div class="series-item">
+		<img src="C:\Users\Manish Kumar Yadav\OneDrive\Desktop\project 01\img\series5.png" alt="Series 2">
+		<div class="series-info">
+		  <h3>THE FAMILY MAN</h3>
+		  <p>must watch</p>
+		  <a href="#" class="watch-now-btn">Subscribe to<br>Watch Now</a>
+		</div>
+	  </div>
+  
+	  
+	  <!-- More series can be added here -->
+  
+	</div>
+  
+	<!-- View All Button -->
+	<div class="view-all-container">
+	  <button class="view-all-btn">View All</button>
+	</div>
+  </div>
+
+
+<!-- movies  -->
+<ul><li><a href="#videos"></a></li></ul>
+<section class="movies" id="videos">
+	<h2 class="heading">MOVIES</h2>
+	<!-- movies container  -->
+	<div class="movie-container">
+		<!-- box-1  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m1.jpg" alt="" />
+			</div>
+			<h3>Dr.Strange</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-2  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m2.jpg" alt="" />
+			</div>
+			<h3>Pathan</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-3  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m3.jpg" alt="" />
+			</div>
+			<h3>Batman vs Superman</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-4  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m4.jpg" alt="" />
+			</div>
+			<h3>John Wick 2</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-5  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m5.jpg" alt="" />
+			</div>
+			<h3>Aquaman</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-6  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m6.jpg" alt="" />
+			</div>
+			<h3>Black Panther</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-7  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m7.jpg" alt="" />
+			</div>
+			<h3>Uncharted</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-8  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m8.jpg" alt="" />
+			</div>
+			<h3>Brahmastra</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-9  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m9.jpg" alt="" />
+			</div>
+			<h3>Mortal-Engines</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-10  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m10.jpg" alt="" />
+			</div>
+			<h3>Mortal-Engines</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-11  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m5.jpg" alt="" />
+			</div>
+			<h3>Aquaman</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-12 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m6.jpg" alt="" />
+			</div>
+			<h3>Black Panther</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-13 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m7.jpg" alt="" />
+			</div>
+			<h3>Uncharted</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-14 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m8.jpg" alt="" />
+			</div>
+			<h3>Brahmastra</h3>
+			<span>120 min | Action</span>
+		</div>
+	</div>
+</section>
+
+
+<!-- services -->
+ 
+<ul><li><a href="#service"></a></li></ul>
+<section class="service" id="service">
+
+<!-- Main Content -->
+<main>
+	<!-- Services Section -->
+	<section id="services">
+		<h2>SERVICES</h2>
+		<ul><li><a href="#movie-production"></a></li></ul>
+    <div class="services-grid">
+        <div class="service" id="movie-production">
+            <h3>Movie Production</h3>
+            <p>From pre-production to the final cut, we bring your vision to life. With a focus on storytelling and cinematic quality, our movie production services ensure that your feature film stands out, blending creativity with meticulous attention to detail.</p>
+        </div>
+
+        <div class="service">
+            <h3>Short Film Production</h3>
+            <p>Our short film production team delivers impactful narratives in a compact format. Whether it's for film festivals, digital platforms, or promotional content, we create short films that leave a lasting impression in a short span of time.</p>
+        </div>
+
+        <div class="service">
+            <h3>Cinema Distribution</h3>
+            <p>Maximize your film's reach with our distribution network. We work closely with cinema chains and digital platforms to ensure that your film reaches its audience, both locally and globally, with seamless execution.</p>
+        </div>
+
+        <div class="service">
+            <h3>Film Marketing</h3>
+            <p>Our film marketing strategies ensure your production gets the attention it deserves. From social media campaigns to media partnerships and innovative promotional events, we design campaigns that engage and excite your target audience.</p>
+        </div>
+
+        <div class="service">
+            <h3>Social Media Content Creation</h3>
+            <p>In today’s digital age, social media is key. Our talented team of creators crafts engaging, innovative content tailored for platforms like Instagram, YouTube, and TikTok, ensuring that your brand is consistently in the spotlight.</p>
+        </div>
+
+        <div class="service">
+            <h3>Ad Campaign Development</h3>
+            <p>We help brands tell their story through high-impact ad campaigns. From digital ads to traditional formats, our creative team designs, shoots, and delivers compelling ads that resonate with audiences and drive results.</p>
+        </div>
+
+        <div class="service">
+            <h3>Event Planning & Management</h3>
+            <p>Whether it's a red carpet premiere or a press junket, we manage every detail to perfection. Our event management services cover logistics, branding, and entertainment, making sure your event is as memorable as your film.</p>
+        </div>
+
+        <div class="service">
+            <h3>Film Academy</h3>
+            <p>Our Film Academy nurtures the next generation of filmmakers with practical, hands-on training:
+                <ul>
+                    <li><strong>Acting Classes:</strong> Develop your craft and gain confidence on camera with our expert coaching.</li>
+                    <li><strong>Direction Classes:</strong> Learn the art of directing, from shot composition to working with actors, under the guidance of experienced filmmakers.</li>
+                    <li><strong>Short Film Making:</strong> Dive into the world of short films, from script to screen, and bring your ideas to life.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Web Series Development</h3>
+            <p>In the era of streaming platforms, web series are booming. We collaborate with you to create gripping, high-quality web series that captivate audiences on platforms like Netflix, Amazon Prime, and YouTube, ensuring your digital success.</p>
+        </div>
+    </div>
+	</section>
+</main>
+
+
+
+
+
+
+
+		<!-- subscribe  -->
+		<section class="subscribe-section">
+			<h2>Magic Moon Studios</h2>
+			<h3>SUBSCRIBE NOW</h3>
+			<p>FOR MORE UPDATES</p>
+			<form id="subscribe-form">
+				<input type="email" placeholder="abc@gmail.com" required>
+				<button type="submit">Subscribe</button>
+			</form>
+		</section>
+		
+
+		<!--about -->
+		<ul><li><a href="#about"></a></li></ul>
+		<main>
+			<section id="about">
+				<h2>About Us</h2>
+				<p>Magic Moon Studios is an innovative venture with a distinctive flair. It is a marvellous masterpiece of vibrant colours that enfolds dreamers with passion, creating an ocean of unlimited fun. Simply put, Magic Moon Studios is the epitome of entertainment.
+				Amid the surge of dubbing and remake films, Magic Moon Studios is dedicated to discovering and nurturing rare, locally sourced stories, using the talents of our artists and technicians to create exceptional entertainment and to produce high-quality films that captivate people of all ages and walks of life.
+				Magic Moon Studios is a creative enterprise that has transcended the tradition of a single producer, embracing a spirit of unity and collaboration to produce films as a close-knit family. We employ experienced technicians within our ranks, offering comprehensive script services tailored for short films, serials, and full-length productions.
+				Moreover, we have established the Magic Moon Studios Art School, an esteemed extension of our commitment, offering weekly and weekend classes tailored for seasoned actors and directors aspiring to excel in their craft as actor-directors.
+				At Magic Moon Studios, our organization boasts a robust YouTube channel integrated with a sophisticated digital marketing framework, engaging in diverse media-related initiatives. Rooted in an audience that values unity, we meticulously curate stories and craft films.
+				Whether producing serials or short films, our creations are a testament to our dedication. Yet, we firmly believe these films are ultimately crafted for your enjoyment and enrichment.</p>
+			</section>
+		</main>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Magic Moon Studios</h4>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#my-profile">My Profile</a></li>
+                <li><a href="#pricing-plans">Pricing Plans</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Browse</h4>
+            <ul>
+                <li><a href="#latest-movies">Latest Movies</a></li>
+                <li><a href="#upcoming-movies">Upcoming Movies</a></li>
+                <li><a href="#latest-series">Latest Series</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul class="social-media">
+                <li><a href="#facebook"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#twitter"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="#instagram"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="#youtube"><i class='bx bxl-youtube'></i></a></li>
+            </ul>
+            <p>Email: ranveer30654@gmail.com</p>
+            <p>Phone: 8539841479</p>
+        </div>
+
+        <!-- Map Section -->
+        <div class="footer-section">
+            <h4>Find Us</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.5968168699587!2d77.617842474668!3d13.124708887204902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19a05fb6ba83%3A0x213e2c1c59bb9ad6!2sBrindavan%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1728235831034!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Magic Moon Studios | All Rights Reserved.</p>
+    </div>
+</footer>
+
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+
+
+
+
+
+
+	
+		  
+	</body>
+</html>
+
+
